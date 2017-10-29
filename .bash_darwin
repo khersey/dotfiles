@@ -19,8 +19,12 @@ function cdl {
   fi
 }
 
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  alias reload='source ~/.bash_profile'
+else
+  alias reload='source ~/.bashrc'
+fi
 
-alias reload='source ~/.bash_profile'
 
 # up 'n' folders
 alias ..='cd ..'
