@@ -1,3 +1,2 @@
 alias docker-clean="docker rm $(docker ps --no-trunc -aqf status=exited)"
-alias chronotrigger="docker run --rm --privileged alpine hwclock -s"
 alias dcr="docker-compose run --rm"
