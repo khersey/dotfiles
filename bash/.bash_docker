@@ -1,2 +1,0 @@
-alias docker-clean="docker rm $(docker ps --no-trunc -aqf status=exited)"
-alias dcr="docker-compose run --rm"

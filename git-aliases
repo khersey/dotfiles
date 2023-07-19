@@ -1,0 +1,2 @@
+git config --global alias.amend 'commit --amend --no-edit'
+git config --global alias.yeet 'push -f'
